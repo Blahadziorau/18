@@ -9,8 +9,9 @@ import java.util.Date;
  */
 public class App {
     public static void main(String... args) {
-        User admin = new User();
-        admin.setSalary(-1000);
-        System.out.println(admin.getSalary());
+        Point point = new Point(1,-10);
+       // point.setX(20);
+       // point.setY(10);
+        point.printQuarter();
     }
 }
