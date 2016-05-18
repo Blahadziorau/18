@@ -12,9 +12,15 @@ public class Point {
     public Point() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите X");
-        x = sc.nextInt();
+        if (sc.hasNextInt()){
+        x = sc.nextInt();}else{
+            System.out.println("vvodi int");
+        }
         System.out.println("Введите Y");
-        y = sc.nextInt();
+        if (sc.hasNextInt()){
+        y = sc.nextInt();}else {
+            System.out.println("vvodi int");
+        }
         sc.close();
     }
 
