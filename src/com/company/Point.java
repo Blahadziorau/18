@@ -15,6 +15,7 @@ public class Point {
         x = sc.nextInt();
         System.out.println("Введите Y");
         y = sc.nextInt();
+        sc.close();
     }
 
 
