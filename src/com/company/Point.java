@@ -24,6 +24,11 @@ public class Point {
         sc.close();
     }
 
+    public Point(int i, int i1) {
+        this.x=i;
+        this.y=i1;
+    }
+
 
     public int getX() {
         return x;
@@ -67,5 +72,8 @@ public class Point {
             message = "in IV quarter";
         }
         System.out.println(message);
+    }
+    public boolean isBigger(Point p){
+        return this.x>p.x;
     }
 }
