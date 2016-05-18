@@ -1,7 +1,7 @@
 package com.company;
 
 /*
- * создать Пк и параметры вывести тустринг
+ * создать Пк и параметры вывести тустринг + тетрадка
  */
 public class PersonalComputer {
     private Monitor monitor;
