@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 /**
  * Created by USER on 18.05.2016.
  */
@@ -7,16 +9,14 @@ public class Point {
     private int x;
     private int y;
 
-    public Point(int i, int u){
-        x =i;
-        y =u;
+    public Point() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите X");
+        x = sc.nextInt();
+        System.out.println("Введите Y");
+        y = sc.nextInt();
     }
 
-    public Point(){
-        x =10;
-        y = 20;
-        System.out.println("in constructor");
-    }
 
     public int getX() {
         return x;
@@ -43,21 +43,21 @@ public class Point {
     }
 
     public void printQuarter() {
-        String message=null;
+        String message = null;
         if (x == 0 && y == 0) {
-            message="in 0";
+            message = "in 0";
         } else if (x == 0) {
-            message="on line X";
+            message = "on line X";
         } else if (y == 0) {
-           message="on line Y";
+            message = "on line Y";
         } else if (x > 0 && y > 0) {
-            message="in I quarter";
+            message = "in I quarter";
         } else if (x < 0 && y > 0) {
-            message="in II quarter";
+            message = "in II quarter";
         } else if (x < 0 && y < 0) {
-            message="in III quarter";
+            message = "in III quarter";
         } else if (x > 0 && y < 0) {
-            message="in IV quarter";
+            message = "in IV quarter";
         }
         System.out.println(message);
     }
