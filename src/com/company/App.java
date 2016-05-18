@@ -13,6 +13,6 @@ public class App {
         Point b=new Point(2,1);
         Point c=new Point(0,0);
        Triangle triangle=new Triangle(a,b,c);
-        point.printQuarter();
+
     }
 }
