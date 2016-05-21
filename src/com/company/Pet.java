@@ -7,7 +7,7 @@ import java.util.Date;
  */
 public class Pet {
     String name;
-   int birth;
+    int birth;
 
     public Pet(String name, int birth) {
         this.name = name;

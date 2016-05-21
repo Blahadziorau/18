@@ -23,7 +23,7 @@ public class User {
         return salary;
     }
 
-   public void print() {
+    public void print() {
         System.out.println("Salary " + getSalary());
     }
 
