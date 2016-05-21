@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Date;
-
 /**
  * Created by USER on 18.05.2016.
  */
